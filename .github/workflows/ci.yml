@@ -1,0 +1,20 @@
+name: Actions Node.js
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  nodejs-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+          cache: npm
+      - name: Get NodeJS version
+        run: node -v
