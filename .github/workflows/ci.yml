@@ -21,3 +21,6 @@ jobs:
           cache: npm
       - name: Get NodeJS version
         run: node -v
+      - run: npm ci
+      - name: Run Node.js
+        run: node index.js
