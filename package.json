@@ -1,0 +1,25 @@
+{
+  "name": "actions-nodejs",
+  "version": "1.0.0",
+  "description": "GitHub Actions and Node.js sample.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tatsuroappdev/actions-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tatsuroappdev/actions-nodejs/issues"
+  },
+  "homepage": "https://github.com/tatsuroappdev/actions-nodejs#readme",
+  "dependencies": {
+    "dayjs": "^1.11.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
